@@ -115,7 +115,7 @@ exit(EXIT_FAILURE);
 }
 while ((r = getline(&ligne, &len, my_file)) != -1)
 {
-process_l(&stack, ligne, numberOfLines);
+process_function(&stack, ligne, numberOfLines);
 numberOfLines++;
 }
 free(ligne);
