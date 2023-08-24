@@ -53,5 +53,7 @@ ssize_t getline(char **linePointer, size_t *n, FILE *fileS);
 void monty_bytes(const char *theFile);
 void process_function(stack_t **stack, char *ligne, unsigned int counter);
 void (*allOperations(char *opcode_search))(stack_t **stack, unsigned int line_num);
+void pint_function(stack_t **stack, unsigned int line_num);
+
 
 #endif

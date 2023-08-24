@@ -10,6 +10,11 @@ void (*allOperations(char *opcode_search))(stack_t **stack,
 instruction_t instraction[] = {
 {"push", push_function},
 {"pall", pall_function},
+{"pint", pint_function},
+{"pop", pop_function},
+{"swap", swap_function},
+{"add", add_function},
+{"nop", nop_function},
 {NULL, NULL}
 };
 int index;
