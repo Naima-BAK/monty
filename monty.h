@@ -12,7 +12,9 @@
 
 extern char *vallData;
 
-#define UNUSED(i) (void)(i)
+#define UNUSED(x) (void)(x)
+#define _POSIX_C_SOURCE 200809L
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
